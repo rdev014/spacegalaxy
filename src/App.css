@@ -1,0 +1,276 @@
+ body {
+  background: linear-gradient(to right,black,navy);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head {
+  color: greenyellow;
+  border: 1px solid yellow;
+  box-shadow: 2px, 2px;
+  border-radius: 20px;
+  display: block;
+  float: right;
+  width: auto;
+  margin-left: 30em;
+  margin-top: -17em;
+  margin-right: 2em;
+  text-align: center;
+  padding: 18px;
+  font-family: sysans-serif;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+
+.d-flex {
+  width: auto;
+  height: auto;
+
+
+}
+
+@media screen and (max-width:700px) {
+  .head {
+    width: fit-content;
+    margin-top: 0px;
+    margin-left: 100px;
+    text-align: center;
+
+  }
+
+  .container1 {
+    width: 100%;
+    margin-top: 0px;
+  }
+}
+
+.container1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+
+}
+
+.d-flex {
+  display: fit-content;
+
+}
+
+.nav-link {
+  font-size: 26px;
+}
+
+.icon button {
+  background: rgb(224, 224, 26);
+  width: 10rem;
+  border: 2px solid white;
+  border-radius: 20px;
+  box-shadow: 6px, 6px, 12px, 2px black;
+}
+
+.hd1 {
+  text-align: center;
+  margin-top: 4em;
+}
+
+.text-white {
+  text-decoration: none;
+}
+
+a {
+  color: aliceblue;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 22px;
+
+}
+
+.footerimg {
+  width: 100%;
+  height: 300px;
+}
+
+Style inputs, select elements and textareas 
+input[type=text],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+Style the label to display next to the inputs 
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+ Style the submit button 
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+ Style the container
+.container2 {
+  border-radius: 5px white;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  margin-top: 6rem;
+  background-image: url(https://gifdb.com/images/file/falling-stars-g12ux36ccv3n6r8b.gif);
+  background-position: center;
+  background-size: cover;
+  font-family: cursive;
+  box-sizing: border-box;
+  box-shadow: 2px 3px 4px 4px;
+}
+
+ /* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+ /*Floating column for inputs: 75% width*/ 
+.col-75 {
+  float: left;
+  width: 70%;
+  margin-top: 6px;
+  box-sizing: border-box;
+  box-shadow: 10px;
+}
+
+/*Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other 
+*/@media screen and (max-width: 750px) {
+
+  .col-25,
+  .col-75,
+  input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .container3{
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+
+  }
+  .container3 p{
+    margin:auto;
+    padding: auto;
+    font-family: cursive;
+    text-align: center;
+  }
+  .container3 img{
+    width: auto;
+    height: auto;
+  }
+  .heading1 {
+    width: auto;
+    height: auto;
+  }
+  .para4{
+    width: fit-content;
+    height: auto;
+  }
+  .embed-responsive-item{
+    width: fit-content;
+
+  }
+
+}
+
+.blog {
+  
+  background-image: url(https://i.pinimg.com/originals/b9/c0/12/b9c012b0c5ae0914da0ad640d858c9cc.gif);
+ 
+  background-position: center;
+}
+
+.blog h1 {
+  margin-top: 2rem;
+  color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: 1px underline;
+  font-size: 60px;
+  flex-wrap: wrap;
+}
+
+.para4 {
+  color: aliceblue;
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+.para5 {
+  color:yellow;
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+.para6{
+  font-size: 26px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  text-align:center ;
+  padding: 12px;
+  margin-top: 2rem;
+}
+
+.container3 {
+  background-image: url(https://i.pinimg.com/originals/bd/8b/ff/bd8bffd78009eab632d34294f1b760bb.gif);
+  background-position: center;
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  gap: 40px;
+  float:right;
+  
+
+}
+.container3 img{
+  width: 500px;
+  height: 300px;
+}
+
+/*scale(0.8) to show the obeject is going far away from us in animation*/  
+
+.bgimg{
+  background-size: cover;
+  background-position: center;
+}
+.video{
+  width: 98%;
+  margin-left: 1rem;
+}
